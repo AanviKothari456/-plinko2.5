@@ -44,7 +44,7 @@ function draw() {
   fill("red");
   text("You get 10 clicks",300,20);
   text("score:"+score,10,40);
- /* text(" 100 ", 20, 550);
+  text(" 100 ", 20, 550);
   text(" 200 ", 100, 550);
   text(" 300 ", 180, 550);
   text(" 400 ", 260, 550);
@@ -54,7 +54,7 @@ function draw() {
   text(" 300 ", 580, 550);
   text(" 200 ", 660, 550);
   text(" 100 ", 740, 550);
-  */
+  
   fill("white"); 
   Engine.update(engine);
   ground.display();
